@@ -1,0 +1,29 @@
+{
+  "name": "goit-nodejs-hw-01",
+  "version": "1.0.0",
+  "description": "Крок 1 Ініціалізується npm в проекті В корені проекту створи файл index.js Постав пакет nodemon як залежність nodemon як залежність розробки (devDependencies) В файлі package.json додай \"скрипти\" для запуску index.js Скрипт start який запускає index.js за допомогою node Скрипт dev який запускає index.js за допомогою nodemon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonyUser/goit-nodeJs-hw-01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntonyUser/goit-nodeJs-hw-01/issues"
+  },
+  "homepage": "https://github.com/AntonyUser/goit-nodeJs-hw-01#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0",
+    "yargs": "^17.6.2"
+  }
+}
